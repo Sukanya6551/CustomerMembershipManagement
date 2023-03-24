@@ -3,14 +3,13 @@ package com.techpalle.dao;
 import java.sql.*;
 import java.util.ArrayList;
 
-import com.techpalle.model.Admin;
 import com.techpalle.model.Customer;
 
 public class CustomerDao {
 
 	private static final String dburl = "jdbc:mysql://localhost:3306/customer_management ";
 	private static final String dbusername = "root";
-	private static final String dbpassword = "sqlserver@123";
+	private static final String dbpassword = "admin";
 	
 	private static Connection con = null;
 	private static PreparedStatement ps = null;
